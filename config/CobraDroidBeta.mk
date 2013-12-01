@@ -17,4 +17,5 @@ PRODUCT_COPY_FILES += \
 
 # Additional CobraDroid packages
 PRODUCT_PACKAGES += \
-        EmuCoreTools
+        EmuCoreTools \
+	Superuser
