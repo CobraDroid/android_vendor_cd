@@ -14,3 +14,7 @@ PRODUCT_COPY_FILES += \
         system/core/rootdir/etc/vold.fstab:system/etc/vold.fstab \
 	vendor/cd/prebuilt/bootanimation.zip:system/media/bootanimation.zip \
 	vendor/cd/prebuilt/initlogo.rle:root/initlogo.rle
+
+# Additional CobraDroid packages
+PRODUCT_PACKAGES += \
+        EmuCoreTools
