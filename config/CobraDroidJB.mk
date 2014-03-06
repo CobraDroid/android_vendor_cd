@@ -39,3 +39,6 @@ BUILD_EMULATOR_OPENGL := true
 # the GLES renderer disables itself if host GL acceleration isn't available.
 USE_OPENGL_RENDERER := true
 
+# Additional CobraDroid packages
+PRODUCT_PACKAGES += \
+    Superuser
