@@ -39,6 +39,11 @@ BUILD_EMULATOR_OPENGL := true
 # the GLES renderer disables itself if host GL acceleration isn't available.
 USE_OPENGL_RENDERER := true
 
-# Additional CobraDroid packages
+# Superuser fun.
+SUPERUSER_EMBEDDED := true
+SUPERUSER_PACKAGE_PREFIX := com.android.settings.cyanogenmod.superuser
+
+# Additional CobraDroid feautres
 PRODUCT_PACKAGES += \
-    Superuser
+    liblime \
+    lime \
